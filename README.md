@@ -1,2 +1,2 @@
 # AR_Sensitivity
-Find the best data amount in order to predict the electrical load of 8 houses with an AR-model.
+The lower the amount of data necessary to predict the future, the better. With this script the ideal data amount for the prediction of the electrical load of 8 households with an AR(96) model will be found automatically.
