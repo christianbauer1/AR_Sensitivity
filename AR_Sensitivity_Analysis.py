@@ -29,6 +29,7 @@ df = df.drop(["MEZ/MESZ"], axis=1)
 df = df.astype(float)
 
 #%% Find the best Data amount to predict with
+"""Chose y if you want to finde the best data amount for an AR(96) prediction."""
 datasize = 'n'
 if datasize == 'y':
     rmse_limit = {}
